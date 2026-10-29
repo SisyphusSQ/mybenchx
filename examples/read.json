@@ -1,0 +1,17 @@
+{
+  "host": "127.0.0.1",
+  "port": 3306,
+  "user": "mybenchx",
+  "database": "sbtest",
+  "password_env": "MYBENCHX_DB_PASSWORD",
+  "table_prefix": "mybenchx_",
+  "tables": 2,
+  "rows": 10000,
+  "read_workers": 4,
+  "workload": "point",
+  "access": "random",
+  "duration": "60s",
+  "timeout": "5s",
+  "seed": 1,
+  "monitor": "off"
+}
